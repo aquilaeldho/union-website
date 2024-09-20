@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.welcome-page {
+  height: 100vh;
+  width: 100vw;
+  background: url('https://www.shutterstock.com/image-photo/hands-newlywed-couple-love-wedding-600nw-258995456.jpg') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 40px;
+  border-radius: 10px;
+  margin-top: 320px;
+}
+
+.hero-text h1 {
+  font-family: 'Serif', sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.hero-text h2 {
+  font-family: 'Dancing Script', cursive; /* Replaced Cursive with Dancing Script */
+  font-size: 3rem;
+  margin: 20px 0;
+}
+
+
+.hero-text p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.hero-buttons .primary-btn, .hero-buttons .secondary-btn {
+  padding: 14px 30px;
+  border-radius: 25px;
+  margin: 0 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.hero-buttons .primary-btn {
+  background: rgb(42, 43, 29);
+  color: #fff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hero-buttons .primary-btn:hover {
+  background: rgb(102, 105, 73);
+}
+
+.hero-buttons .secondary-btn {
+  background: #fff;
+  color: #313229;
+  border: 1px solid #434f14;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hero-buttons .secondary-btn:hover {
+  background: rgb(74, 75, 55);
+  color: #ffffff;
+  
+}
+
+
+
+ /* .hero-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .search-icon {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+
+  .hero-content {
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 254);
+  }
+  
+  .hero-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: rgb(0, 1, 1);
+  }
+  
+  .hero-buttons .primary-btn, .hero-buttons .secondary-btn {
+    padding: 14px 30px;
+    border-radius: 25px;
+    margin: 0 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .hero-buttons .primary-btn {
+    background: rgb(42, 43, 29);
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .hero-buttons .primary-btn:hover {
+    background: rgb(199, 204, 142);
+  }
+  
+  .hero-buttons .secondary-btn {
+    background: #fff;
+    color: #313229;
+    border: 1px solid #434f14;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .hero-buttons .secondary-btn:hover {
+    background: rgb(199, 204, 142);
+    
+  }
+   */

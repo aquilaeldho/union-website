@@ -1,0 +1,86 @@
+body, html {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #000000;
+  height: 100%;
+  overflow-y: auto; /* Prevent horizontal scroll */
+}
+
+.homepage {
+  padding-top: 3500px; /* Adjust this value according to your navbar's height */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 1.2em;
+}
+
+.vendor-categories {
+  padding: 50px 20px;
+  flex: 1; /* Allows content to grow and fill available space */
+  overflow-y: auto; /* Enables vertical scrolling if content overflows */
+}
+
+.category {
+  margin-bottom: 50px;
+}
+
+.category h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #000000;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 10px;
+}
+
+.vendor-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.vendor {
+  flex: 1 1 calc(33.333% - 20px);
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #000000;
+  transition: transform 0.3s ease;
+}
+
+.vendor img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border: 1px solid #000000;
+}
+
+.vendor h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.vendor p {
+  font-size: 1em;
+  color: #555555;
+}
+
+.vendor:hover {
+  transform: scale(1.05);
+}

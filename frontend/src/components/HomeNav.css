@@ -1,0 +1,80 @@
+/* NavBar.css */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #353a45;
+  /* background-color: #6a89cc; */
+  color: white;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  z-index: 50;
+  /* box-shadow: 0 4px 6px rgba(97, 116, 190, 0.1); */
+  font-weight: bold;
+}
+
+.navbar-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(139, 145, 76);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar-logo-img {
+  height: 60px;
+  margin-right: 10px;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+  font-size: 18px;
+}
+
+.navbar-links li {
+  margin: 0 15px;
+}
+
+.navbar-links a {
+  color: rgba(208, 225, 20, 0.852);
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  background-color: #555;
+}
+
+.navbar-logout {
+  text-decoration: none;
+  color: rgb(234, 240, 240);
+  background-color: rgb(139, 145, 76);
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: 18px;
+}
+
+.navbar-logout:hover {
+  background-color: rgb(199, 204, 142);
+  color: white;
+}

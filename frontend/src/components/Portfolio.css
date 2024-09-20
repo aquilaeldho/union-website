@@ -1,0 +1,54 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll; /* Ensures vertical scroll is always available */
+}
+
+.portfolio-page {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+}
+
+.portfolio-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.portfolio-header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.portfolio-header p {
+    font-size: 1.2em;
+    color: #555555;
+}
+
+.portfolio-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.portfolio-item {
+    flex: 1 1 calc(33.333% - 20px);
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #000000;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #000000;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+}
